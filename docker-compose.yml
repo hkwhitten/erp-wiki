@@ -1,0 +1,11 @@
+services:
+  docs:
+    image: squidfunk/mkdocs-material
+    volumes:
+      - ./docs:/docs
+      - ./mkdocs.yml:/mkdocs.yml
+    ports:
+      - "8000:8000"
+    command: serve -f /mkdocs.yml -a 0.0.0.0:8000
+
+
