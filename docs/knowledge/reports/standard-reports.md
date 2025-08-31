@@ -1,11 +1,11 @@
 ---
-title: backup-restore
-tags: [it, gnucash]
+title: Standard Reports
+tags: [it, gnucash, accounting]
 ---
 
-# Back up & restore
+# Standard  Reports
 
-## Back up & restore GnuCash
+## Standard GnuCash Reports 
 
 ### macOS
 
@@ -20,5 +20,4 @@ tags: [it, gnucash]
   
   # AqBanking (if used)
   tar -czf gnucash-aqbanking.tgz -C "$HOME" .aqbanking 2>/dev/null || true
-
 

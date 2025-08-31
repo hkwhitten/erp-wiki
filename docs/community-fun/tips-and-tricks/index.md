@@ -1,3 +1,3 @@
-# index
+# Tips & Tricks
 
-_TBD_
+Short, practical how‑to notes and shortcuts.

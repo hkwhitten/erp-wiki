@@ -10,19 +10,9 @@ Use this page to find, back up, and restore user-level settings for GnuCash.
 | **Preferences (app settings)** | `~/Library/Preferences/org.gnucash.GnuCash.plist` *(GSettings backend)* | Registry: `HKCU\Software\GSettings` *(org.gnucash.*)* | `dconf` (GSettings): `dconf dump /org/gnucash/` |
 | **AqBanking (online banking)** | `~/.aqbanking` | `C:\Users\<you>\aqbanking\` *(if used)* | `~/.aqbanking` |
 
-> Tip: In GnuCash, **Help → About** shows the actual paths used on that machine.
+Tip: In GnuCash, **Help → About** shows the actual paths used on that machine.
 
----
-
-## Back up & restore
-
-### macOS
-- **Back up**
-  ```bash
-  # user data (saved reports, state)
-  tar -czf gnucash-macos-data.tgz -C "$HOME/Library/Application Support" Gnucash
-  # preferences (plist)
-  cp "$HOME/Library/Preferences/org.gnucash.GnuCash.plist" ./org.gnucash.GnuCash.plist.backup 2>/dev/null || true
-  # AqBanking (if used)
-  tar -czf gnucash-aqbanking.tgz -C "$HOME" .aqbanking 2>/dev/null || true
+Tip: If you want to know in which directories your recent GnuCash files are stored, hover over one of the entries in the history menu
+(File[->Most Recently Used-List]).
+The full path is displayed in the status bar.
 
