@@ -6,4 +6,4 @@ After you select a particular report you can customize it by selecting the Optio
 
 Once you have the report customized to your liking you can save it for reuse under a name of your choice.
 
-For more information, please refer to <a href="file:///Applications/Gnucash.app/Contents/Resources/en.lproj/GnuCash%20Guide/ch_reports.html>GnuCash Documentation</a>.
+For more information, please refer to <a href="file:///Applications/Gnucash.app/Contents/Resources/en.lproj/GnuCash%20Guide/ch_reports.html">GnuCash Documentation</a>.
